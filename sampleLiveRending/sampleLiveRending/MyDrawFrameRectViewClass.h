@@ -19,5 +19,5 @@ IB_DESIGNABLE
 @property (nonatomic, assign) IBInspectable CGSize sampleSize;
 @property (nonatomic, assign) IBInspectable CGPoint samplePoint ;
 @property (nonatomic, strong) IBInspectable UIImage *sampleImage ;
-@property (nonatomic, strong) IBInspectable double *sampleDouble ;
+@property (nonatomic, assign) IBInspectable double sampleDouble ;
 @end
